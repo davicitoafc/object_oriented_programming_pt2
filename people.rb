@@ -11,3 +11,11 @@ class Instructor
     puts "Everything in Ruby is an Object"
   end
 end #end for Instructor class
+
+student1 = Student.new
+
+student1.learn
+
+teacher1 = Instructor.new
+
+teacher1.teach 
