@@ -1,3 +1,17 @@
+class Person
+
+attr_accessor :name
+
+  def initialize(name)
+
+  end
+
+  def greeting
+    puts "Hi my name is #{name}"
+  end
+
+end #end for Person class
+
 class Student
 
   def learn
@@ -18,4 +32,4 @@ student1.learn
 
 teacher1 = Instructor.new
 
-teacher1.teach 
+teacher1.teach
