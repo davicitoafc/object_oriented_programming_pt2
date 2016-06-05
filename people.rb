@@ -49,6 +49,7 @@ chris.teach
 
 #chris.learn
 
-#the following message will run. this is due in part to the fact that instructor class and student class only inherit from people class, and not from each other.
+#the following message will display in command line when running people.rb
+#this is due in part to the fact that instructor class and student class only inherit from people class, and not from each other.
 
 #people.rb:48:in `<main>': undefined method `teach' for #<Student:0x007fb16b8557b8 @name="Christina"> (NoMethodError)
